@@ -36,6 +36,9 @@ nav a:hover {
 	color: #C78C19;
 	text-decoration: underline;
 }
+ul{
+	display:flex
+}
 
 .produtos {
 	width: 940px;
@@ -82,7 +85,7 @@ nav a:hover {
 	margin-top: 10px;
 }
 
-footer {
+.footer {
 	text-align: center;
 	background: url("bg.jpg");
 	padding: 40px 0;
@@ -94,15 +97,15 @@ footer {
 	margin: 20px 0 0;
 }
 
-main {
+.main {
 	
 }
 
-form {
+.form {
 	margin: 40px 0;
 }
 
-form label, form legend {
+.form label, form legend {
 	display:block;
 	font-size: 20px;
 	margin: 0 0 10px;
